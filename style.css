@@ -1,0 +1,49 @@
+body {
+    font-family: Roboto, Ubuntu, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 32px;
+}
+
+#container {
+    margin: auto;
+    height: 1000px;
+    width: 1000px;
+    padding: 32px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    height: 100px;
+    display: flex;
+}
+
+.box {
+    width: 50px;
+    border: solid;
+    flex: auto;
+    border-color: white;
+    background-color: lightgray;
+}
+
+#controls {
+    display: flex;
+    margin: auto;
+    padding: 32px;
+    justify-content: center;
+}
+
+.control {
+    padding: 8px;
+    margin: 8px 32px;
+    font-size: 24px;
+}
+
+#new-size {
+    width: 64px;
+}
